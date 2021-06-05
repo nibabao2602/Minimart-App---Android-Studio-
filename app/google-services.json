@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "894894488728",
+    "project_id": "chungthiennhi18110330-be8ea",
+    "storage_bucket": "chungthiennhi18110330-be8ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894894488728:android:b77489b32b26c4f1bae4ed",
+        "android_client_info": {
+          "package_name": "hcmute.edu.vn.mssv.ChungThienNhi18110330"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894894488728-iv97m1ptics5opvceu5b3tbbji85fcah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hcmute.edu.vn.mssv.ChungThienNhi18110330",
+            "certificate_hash": "8395040e37ca8a227a6ba9dd9b9a0070e2ff3384"
+          }
+        },
+        {
+          "client_id": "894894488728-t5dfi84gv87sj23mua3ce65apmpa28h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_CgjS9OWjyOWIY8C5Tm9ImOXiXxbGiFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894894488728-t5dfi84gv87sj23mua3ce65apmpa28h2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

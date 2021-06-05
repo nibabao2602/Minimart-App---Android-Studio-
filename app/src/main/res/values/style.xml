@@ -11,6 +11,7 @@
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">#000000</item>
     </style>
     <style name="Button1" parent="Widget.AppCompat.Button.Colored">
         <item name="android:background">@drawable/button1_bg</item>
