@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/demo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/continueShopping"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="298dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="24dp"
+        android:drawableStart="@drawable/ic_cart_dashboard"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Tiếp tục mua hàng"
+        android:textColor="#272670"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/gifImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

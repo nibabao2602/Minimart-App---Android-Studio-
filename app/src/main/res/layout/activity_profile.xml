@@ -19,14 +19,27 @@
             android:background="#272670"
             android:padding="20dp">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/avatar"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_centerVertical="true"
                 android:paddingLeft="10dp"
                 android:paddingRight="20dp"
-                android:src="@drawable/profile" />
+                android:src="@drawable/dummy_image" />
+
+            <ImageView
+                android:id="@+id/btnCapture"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignStart="@+id/avatar"
+                android:layout_alignEnd="@+id/avatar"
+                android:layout_alignBottom="@+id/avatar"
+                android:layout_marginStart="52dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="15dp"
+                android:clickable="true"
+                app:srcCompat="@drawable/ic_plus" />
 
             <TextView
                 android:id="@+id/name"
@@ -37,7 +50,7 @@
                 android:layout_toRightOf="@id/avatar"
                 android:fontFamily="@font/poppinsbold"
                 android:includeFontPadding="false"
-                android:text="Chung Thiên Nhi"
+                android:text="Tên người dùng"
                 android:textColor="#fff"
                 android:textSize="20sp" />
 
@@ -49,7 +62,7 @@
                 android:layout_toRightOf="@id/avatar"
                 android:fontFamily="@font/poppinsmedium"
                 android:includeFontPadding="false"
-                android:text="Profile User"
+                android:text="Thông tin cá nhân"
                 android:textColor="#E6E4E4"
                 android:textSize="14sp" />
 
@@ -88,10 +101,12 @@
                         android:fontFamily="@font/poppinsmedium"
                         android:includeFontPadding="false"
                         android:textColor="#fff"
-                        android:text="$123"
+                        android:text="Lịch Sử Mua Hàng"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
 
                     <TextView
+                        android:visibility="invisible"
                         android:id="@+id/payment_desc"
                         android:layout_width="wrap_content"
                         android:textColor="#fff"
@@ -120,6 +135,7 @@
                     android:padding="5dp">
 
                     <ImageView
+                        android:visibility="invisible"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_centerHorizontal="true"
@@ -132,7 +148,8 @@
                         android:layout_centerInParent="true"
                         android:fontFamily="@font/poppinsmedium"
                         android:includeFontPadding="false"
-                        android:text="$123"
+                        android:text="Reset Mật Khẩu"
+                        android:textAlignment="center"
                         android:textSize="20sp" />
 
                     <TextView
@@ -143,7 +160,7 @@
                         android:layout_centerInParent="true"
                         android:fontFamily="@font/poppinsmedium"
                         android:includeFontPadding="false"
-                        android:text="Balance"
+                        android:text=""
                         android:textSize="14sp" />
 
                 </RelativeLayout>
@@ -161,15 +178,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:hint="Full Name">
+                android:hint="Tên người dùng">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/txtName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_cart"
+                    android:drawableLeft="@drawable/ic_cart_dashboard"
                     android:drawablePadding="10dp"
-                    android:text="Chung Thiên Nhi" />
+                    android:text="" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -183,9 +200,9 @@
                     android:id="@+id/txtEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_cart"
+                    android:drawableLeft="@drawable/ic_cart_dashboard"
                     android:drawablePadding="10dp"
-                    android:text="nhilx150017@gmail.com" />
+                    android:text="" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -199,9 +216,9 @@
                     android:id="@+id/txtPhone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_cart"
+                    android:drawableLeft="@drawable/ic_cart_dashboard"
                     android:drawablePadding="10dp"
-                    android:text="0582010199" />
+                    android:text="" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -215,9 +232,9 @@
                     android:id="@+id/txtDOB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:drawableLeft="@drawable/ic_cart"
+                    android:drawableLeft="@drawable/ic_cart_dashboard"
                     android:drawablePadding="10dp"
-                    android:text="26/02/2000" />
+                    android:text="" />
 
             </com.google.android.material.textfield.TextInputLayout>
 

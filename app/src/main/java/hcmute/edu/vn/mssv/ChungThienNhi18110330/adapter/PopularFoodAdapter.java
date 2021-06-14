@@ -50,16 +50,22 @@ public class PopularFoodAdapter extends RecyclerView.Adapter<PopularFoodAdapter.
 
     @Override
     public void onBindViewHolder(@NonNull PopularFoodViewHolder holder, int position) {
-        Glide.with(context).load(popularFoodList.get(position).getImage())
+        Glide.with(context)
+                .load(popularFoodList.get(position).getImage())
                 .into(holder.foodImage);
-//        holder.foodImage.setImageResource(Integer.parseInt(popularFoodList.get(position).getImage()));
         holder.name.setText(popularFoodList.get(position).getName());
-        holder.price.setText(popularFoodList.get(position).getPrice());
+        holder.price.setText(popularFoodList.get(position).getPrice()+".000 \n VND");
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(context, DetailsActivity.class);
+                i.putExtra("name", popularFoodList.get(position).getName());
+                i.putExtra("price", popularFoodList.get(position).getPrice());
+                i.putExtra("rating", popularFoodList.get(position).getRating().toString());
+                i.putExtra("image", popularFoodList.get(position).getImage());
+                i.putExtra("key", popularFoodList.get(position).getKey());
+
                 context.startActivity(i);
             }
         });
@@ -88,19 +94,4 @@ public class PopularFoodAdapter extends RecyclerView.Adapter<PopularFoodAdapter.
 
         }
     }
-    public static Bitmap getBitmapFromURL(String src) {
-        try {
-            URL url = new URL(src);
-            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-            connection.setDoInput(true);
-            connection.connect();
-            InputStream input = connection.getInputStream();
-            Bitmap myBitmap = BitmapFactory.decodeStream(input);
-            return myBitmap;
-        } catch (IOException e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
-
 }

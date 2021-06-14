@@ -59,13 +59,13 @@ public class ForgotPasswordActivity extends AppCompatActivity {
         String email = emailEditText.getText().toString();
 
         if (email.isEmpty()){
-            emailEditText.setError("Email is required!");
+            emailEditText.setError("Vui lòng điền email!");
             emailEditText.requestFocus();
             return;
         }
 
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-            emailEditText.setError("Please provide valid email!");
+            emailEditText.setError("Email không hợp lệ!");
             emailEditText.requestFocus();
             return;
         }
@@ -74,10 +74,10 @@ public class ForgotPasswordActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if (task.isSuccessful()){
-                    Toast.makeText(ForgotPasswordActivity.this, "Check your mail to reset your password", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ForgotPasswordActivity.this, "Kiểm tra mail của bạn để reset mật khẩu", Toast.LENGTH_LONG).show();
 
                 }else {
-                    Toast.makeText(ForgotPasswordActivity.this, "Try again!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ForgotPasswordActivity.this, "Lỗi! Vui lòng thử lại", Toast.LENGTH_LONG).show();
                 }
             }
         });

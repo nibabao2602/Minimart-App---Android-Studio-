@@ -20,6 +20,10 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.ArrayList;
+
+import hcmute.edu.vn.mssv.ChungThienNhi18110330.model.CartModel;
+
 public class MainActivity extends AppCompatActivity {
     // catch Element
     TextView signIn, signUp, forgotPass;
@@ -29,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
     FirebaseUser user;
     SharedPreferences sharedPreferences;
     FirebaseAuth mAuth;
+
+
+
+    public static ArrayList<CartModel> CartList;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +45,12 @@ public class MainActivity extends AppCompatActivity {
         Tools.setSystemBarLight(this);
         Tools.setSystemBarColor(this,R.color.white);
 
+
+        if (CartList != null) {
+
+        } else {
+            CartList = new ArrayList<CartModel>();
+        }
         sharedPreferences = getSharedPreferences("dataLogin", MODE_PRIVATE);
         mAuth = FirebaseAuth.getInstance();
         user = FirebaseAuth.getInstance().getCurrentUser();
@@ -52,44 +67,6 @@ public class MainActivity extends AppCompatActivity {
                 DangNhap();
             }
         });
-//        username.setText(sharedPreferences.getString("username", ""));
-//        password.setText(sharedPreferences.getString("password", ""));
-//        isRemember.setChecked(sharedPreferences.getBoolean("checked", false));
-//
-//        signIn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                String user = username.getText().toString();
-//                String pass = password.getText().toString();
-//
-//                if (user.equals("") || pass.equals("")) {
-//                    Toast.makeText(MainActivity.this, "Vui lòng nhập đầy đủ các thông tin được yêu cầu", Toast.LENGTH_SHORT).show();
-//                }
-//                else {
-//                    Boolean checkuserpass = DB.checkusernamepassword(user, pass);
-//                    if (checkuserpass == true) {
-//                        Toast.makeText(MainActivity.this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
-//                        if (isRemember.isChecked()) {
-//                            SharedPreferences.Editor editor = sharedPreferences.edit();
-//                            editor.putString("username", user);
-//                            editor.putString("password", pass);
-//                            editor.putBoolean("checked", true);
-//                            editor.commit();
-//                        }else{
-//                            SharedPreferences.Editor editor = sharedPreferences.edit();
-//                            editor.remove("username");
-//                            editor.remove("password");
-//                            editor.remove("checked");
-//                            editor.commit();
-//                        }
-//                        Intent intent = new Intent(MainActivity.this, Dashboard.class);
-//                        startActivity(intent);
-//                    } else {
-//                        Toast.makeText(MainActivity.this, "Đăng nhập thất bại", Toast.LENGTH_SHORT).show();
-//                    }
-//                }
-//            }
-//        });
 
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -107,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
     }
     private void AnhXa(){
         signIn = (TextView)findViewById(R.id.btnSignIn);
@@ -115,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
         isRemember = (CheckBox) findViewById(R.id.ckbRemember);
         username = (TextInputEditText) findViewById(R.id.txtEmail);
         password = (TextInputEditText) findViewById(R.id.txtPassword);
-        DB = new DBHelper(this);
     }
 
     private  void DangNhap() {

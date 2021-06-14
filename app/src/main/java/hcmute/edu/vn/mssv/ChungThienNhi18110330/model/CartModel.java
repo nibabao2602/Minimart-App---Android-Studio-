@@ -1,11 +1,18 @@
 package hcmute.edu.vn.mssv.ChungThienNhi18110330.model;
 
 public class CartModel {
-    private String key, name, image, price;
-    private int quantity;
-    private float totalPrice;
+    String key, name, image;
+    int price;
+    int quantity;
+    int totalPrice;
 
-    public CartModel() {
+    public CartModel(String key, String name, String image, Integer price, Integer quantity, Integer totalPrice) {
+        this.key = key;
+        this.name = name;
+        this.image = image;
+        this.price = price;
+        this.quantity = quantity;
+        this.totalPrice = totalPrice;
     }
 
     public String getKey() {
@@ -32,27 +39,27 @@ public class CartModel {
         this.image = image;
     }
 
-    public String getPrice() {
+    public Integer getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(Integer price) {
         this.price = price;
     }
 
-    public int getQuantity() {
+    public Integer getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(int quantity) {
+    public void setQuantity(Integer quantity) {
         this.quantity = quantity;
     }
 
-    public float getTotalPrice() {
+    public Integer getTotalPrice() {
         return totalPrice;
     }
 
-    public void setTotalPrice(float totalPrice) {
+    public void setTotalPrice(Integer totalPrice) {
         this.totalPrice = totalPrice;
     }
 }

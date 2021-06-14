@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "hcmute.edu.vn.mssv.ChungThienNhi18110330",
+  "variantName": "debug",
+  "elements": []
+}

@@ -1,6 +1,7 @@
 package hcmute.edu.vn.mssv.ChungThienNhi18110330.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+
+import hcmute.edu.vn.mssv.ChungThienNhi18110330.DetailsActivity;
 import hcmute.edu.vn.mssv.ChungThienNhi18110330.model.AsiaFood;
 import hcmute.edu.vn.mssv.ChungThienNhi18110330.R;
 import hcmute.edu.vn.mssv.ChungThienNhi18110330.model.PopularFood;
@@ -40,12 +44,25 @@ public class AsiaFoodAdapter extends RecyclerView.Adapter<AsiaFoodAdapter.AsiaFo
     @Override
     public void onBindViewHolder( AsiaFoodViewHolder holder, int position) {
 
-        holder.foodImage.setImageResource(asiaFoodList.get(position).getImageUrl());
+        Glide.with(context)
+                .load(asiaFoodList.get(position).getImage())
+                .into(holder.foodImage);
         holder.name.setText(asiaFoodList.get(position).getName());
-        holder.price.setText(asiaFoodList.get(position).getPrice());
-        holder.rating.setText(asiaFoodList.get(position).getRating());
-        holder.restorantName.setText(asiaFoodList.get(position).getRestorantname());
+        holder.price.setText(asiaFoodList.get(position).getPrice() + ".000 VND");
+        holder.rating.setText(asiaFoodList.get(position).getRating().toString());
 
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(context, DetailsActivity.class);
+                i.putExtra("name", asiaFoodList.get(position).getName());
+                i.putExtra("price", asiaFoodList.get(position).getPrice());
+                i.putExtra("rating", asiaFoodList.get(position).getRating().toString());
+                i.putExtra("image", asiaFoodList.get(position).getImage());
+                i.putExtra("key", asiaFoodList.get(position).getKey());
+                context.startActivity(i);
+            }
+        });
     }
 
     @Override

@@ -11,6 +11,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.View;
@@ -19,11 +20,13 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.github.dhaval2404.imagepicker.ImagePicker;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.UserProfileChangeRequest;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -37,6 +40,7 @@ public class SignupActivity extends AppCompatActivity {
     EditText txtPassword, txtConfirmPassword;
 
     FirebaseAuth mAuth;
+    Uri uri;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,8 +62,12 @@ public class SignupActivity extends AppCompatActivity {
         btnCapture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                startActivityForResult(intent, 100);
+                ImagePicker.with(SignupActivity.this)
+                        .crop()	    			//Crop image(Optional), Check Customization for more option
+
+//                .compress(1024)			//Final image size will be less than 1 MB(Optional)
+                        .maxResultSize(800, 800)	//Final image resolution will be less than 1080 x 1080(Optional)
+                        .start();
             }
         });
 
@@ -83,12 +91,8 @@ public class SignupActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 100) {
-            // Get Capture Image
-            Bitmap captureImage = (Bitmap) data.getExtras().get("data");
-            // Set Capture Image to ImageView
-            avatar.setImageBitmap(captureImage);
-        }
+        uri = data.getData();
+        avatar.setImageURI(uri);
     }
     private void AnhXa() {
         btnCapture=(ImageView)findViewById(R.id.btnCapture);
@@ -102,7 +106,7 @@ public class SignupActivity extends AppCompatActivity {
         txtConfirmPassword = (EditText) findViewById(R.id.et_confirm_password);
     }
     private void DangKy() {
-        String user = txtUsername.getText().toString();
+        String name = txtUsername.getText().toString();
         String pass = txtPassword.getText().toString();
         String confirmPass = txtConfirmPassword.getText().toString();
         String email = txtEmail.getText().toString();
@@ -119,5 +123,9 @@ public class SignupActivity extends AppCompatActivity {
                         }
                     }
                 });
+        UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
+                .setDisplayName(name)
+                .setPhotoUri(uri)
+                .build();
     }
 }

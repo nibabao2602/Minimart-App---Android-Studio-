@@ -2,35 +2,19 @@ package hcmute.edu.vn.mssv.ChungThienNhi18110330.model;
 
 public class AsiaFood {
 
-    String name;
-    String price;
-    Integer imageUrl;
+    String name, price, image, key;
+    Integer amount;
+    Float rating;
 
-    public AsiaFood(String name, String price, Integer imageUrl, String rating, String restorantname) {
-        this.name = name;
-        this.price = price;
-        this.imageUrl = imageUrl;
-        this.rating = rating;
-        this.restorantname = restorantname;
+    public AsiaFood() {
     }
 
-    String rating;
-    String restorantname;
-
-    public String getRating() {
-        return rating;
+    public String getKey() {
+        return key;
     }
 
-    public void setRating(String rating) {
-        this.rating = rating;
-    }
-
-    public String getRestorantname() {
-        return restorantname;
-    }
-
-    public void setRestorantname(String restorantname) {
-        this.restorantname = restorantname;
+    public void setKey(String key) {
+        this.key = key;
     }
 
     public String getName() {
@@ -49,11 +33,27 @@ public class AsiaFood {
         this.price = price;
     }
 
-    public Integer getImageUrl() {
-        return imageUrl;
+    public String getImage() {
+        return image;
     }
 
-    public void setImageUrl(Integer imageUrl) {
-        this.imageUrl = imageUrl;
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public Integer getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Integer amount) {
+        this.amount = amount;
+    }
+
+    public Float getRating() {
+        return rating;
+    }
+
+    public void setRating(Float rating) {
+        this.rating = rating;
     }
 }

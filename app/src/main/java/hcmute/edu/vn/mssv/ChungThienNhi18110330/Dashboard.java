@@ -3,6 +3,9 @@ package hcmute.edu.vn.mssv.ChungThienNhi18110330;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+
 import androidx.appcompat.widget.Toolbar;
 
 import androidx.annotation.NonNull;
@@ -20,19 +23,21 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.nex3z.notificationbadge.NotificationBadge;
 
 import org.jetbrains.annotations.NotNull;
 
 import hcmute.edu.vn.mssv.ChungThienNhi18110330.adapter.AsiaFoodAdapter;
 import hcmute.edu.vn.mssv.ChungThienNhi18110330.adapter.PopularFoodAdapter;
 import hcmute.edu.vn.mssv.ChungThienNhi18110330.model.AsiaFood;
+import hcmute.edu.vn.mssv.ChungThienNhi18110330.model.CartModel;
 import hcmute.edu.vn.mssv.ChungThienNhi18110330.model.PopularFood;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Dashboard extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-    DatabaseReference reference;
+    DatabaseReference drinkReference, foodReference;
     RecyclerView popularRecycler, asiaRecycler;
     PopularFoodAdapter popularFoodAdapter;
     AsiaFoodAdapter asiaFoodAdapter;
@@ -41,6 +46,10 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
     NavigationView navigationView;
     Toolbar toolbar;
 
+    ImageView cart;
+
+    NotificationBadge badge;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,22 +57,20 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
 
         AnhXa();
 
+        cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this, Cart.class);
+                startActivity(intent);
+            }
+        });
 
         // now here we will add some dummy data to out model class
 
         ArrayList<PopularFood> popularFoodList = new ArrayList<>();
 
-//        popularFoodList.add(new PopularFood("Float Cake Vietnam", "$7.05", R.drawable.popularfood1));
-//        popularFoodList.add(new PopularFood("Chiken Drumstick", "$17.05", R.drawable.popularfood2));
-//        popularFoodList.add(new PopularFood("Fish Tikka Stick", "$25.05", R.drawable.popularfood3));
-//        popularFoodList.add(new PopularFood("Float Cake Vietnam", "$7.05", R.drawable.popularfood1));
-//        popularFoodList.add(new PopularFood("Chiken Drumstick", "$17.05", R.drawable.popularfood2));
-//        popularFoodList.add(new PopularFood("Fish Tikka Stick", "$25.05", R.drawable.popularfood3));
-//
-//        setPopularRecycler(popularFoodList);
-
-        reference = FirebaseDatabase.getInstance().getReference().child("Drink");
-        reference.addValueEventListener(new ValueEventListener() {
+        drinkReference = FirebaseDatabase.getInstance().getReference().child("Drink");
+        drinkReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 popularFoodList.clear();
@@ -84,14 +91,25 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
 
 
         List<AsiaFood> asiaFoodList = new ArrayList<>();
-        asiaFoodList.add(new AsiaFood("Chicago Pizza", "$20", R.drawable.asiafood1, "4.5", "Briand Restaurant"));
-        asiaFoodList.add(new AsiaFood("Straberry Cake", "$25", R.drawable.asiafood2, "4.2", "Friends Restaurant"));
-        asiaFoodList.add(new AsiaFood("Chicago Pizza", "$20", R.drawable.asiafood1, "4.5", "Briand Restaurant"));
-        asiaFoodList.add(new AsiaFood("Straberry Cake", "$25", R.drawable.asiafood2, "4.2", "Friends Restaurant"));
-        asiaFoodList.add(new AsiaFood("Chicago Pizza", "$20", R.drawable.asiafood1, "4.5", "Briand Restaurant"));
-        asiaFoodList.add(new AsiaFood("Straberry Cake", "$25", R.drawable.asiafood2, "4.2", "Friends Restaurant"));
+        foodReference = FirebaseDatabase.getInstance().getReference().child("Food");
+        foodReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                asiaFoodList.clear();
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()){
+                    AsiaFood asiaFood = snapshot.getValue(AsiaFood.class);
+                    asiaFoodList.add(asiaFood);
+                }
+                AsiaFoodAdapter adapter = new AsiaFoodAdapter(Dashboard.this, asiaFoodList);
 
-        setAsiaRecycler(asiaFoodList);
+                setAsiaRecycler(asiaFoodList);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
 
     }
 
@@ -120,6 +138,10 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
         toolbar = findViewById(R.id.menu);
+
+        badge = findViewById(R.id.badge);
+        badge.setNumber(MainActivity.CartList.size());
+        cart = findViewById(R.id.cart);
 
         setSupportActionBar(toolbar);
 

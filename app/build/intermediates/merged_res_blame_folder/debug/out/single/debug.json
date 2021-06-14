@@ -1,0 +1,394 @@
+[
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_facebook.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_facebook.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_details.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\activity_details.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location_on_black_24dp.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_location_on_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_black_24dp.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\font_regular.ttf.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\font\\regular.ttf"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_filter.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_filter.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\font_rubik_bold_italic.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\font\\rubik_bold_italic.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart_dashboard.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_cart_dashboard.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_test.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_g.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\g.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_twitter.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_twitter.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_username_right.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\username_right.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_login_back.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_login_back.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_logo_2.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\app_logo_2.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_group_400.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_group_400.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_payment.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_payment.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_asiafood1.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\asiafood1.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_done_bill.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\activity_done_bill.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_plus.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_badge.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_badge.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cart.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_in.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\in.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_cart_dialog.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\add_cart_dialog.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_asia_food_row_item.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\asia_food_row_item.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\bg.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cart_button_bg.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\cart_button_bg.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_short.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_short.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layout_bg.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\layout_bg.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fb.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\fb.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rectangle_3.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_rectangle_3.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button1_bg.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\button1_bg.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_forward_black_24dp.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_arrow_forward_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_group_1675.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_group_1675.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cat_bg.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_cat_bg.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\font_poppinsbold.ttf.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\font\\poppinsbold.ttf"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_rectangle.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\rounded_rectangle.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_menu.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\menu\\bottom_menu.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mail.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_mail.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\menu_dashboard_menu.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\menu\\dashboard_menu.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_back.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\button_back.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keyboard_arrow_left_black_24dp.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_demo.gif.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\demo.gif"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\font_poppinsmedium.ttf.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\font\\poppinsmedium.ttf"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_minus.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_minus.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_heart.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_heart.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_detail_page_cart_button_bg.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\detail_page_cart_button_bg.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_popular_food_row_item.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\popular_food_row_item.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_illustration.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\illustration.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\font_rubik.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\font\\rubik.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_bg.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\search_bg.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bx_cart_2.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_bx_cart_2.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\font_rubik_bold.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\font\\rubik_bold.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cart.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\activity_cart.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_phone.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_phone.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\font_semibold.ttf.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\font\\semibold.ttf"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_forget_password.jpg.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\forget_password.jpg"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_detail_page_bg.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\detail_page_bg.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_cart_item.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\cart_item.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dummy_image.jpg.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\dummy_image.jpg"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_black_24dp.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_star_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_popularfood1.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\popularfood1.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tw.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\tw.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_black_24dp.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_menu_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_more.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_more.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\font_rubik_medium.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\font\\rubik_medium.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rectangle_344.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_rectangle_344.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\profile.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_group_401.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_group_401.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_password_right.png.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\password_right.png"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bx_share_alt_1.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_bx_share_alt_1.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notification.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account.xml.flat",
+        "source": "E:\\HKII-2021\\laptrinhdidong\\Project\\github\\Minimart-App---Android-Studio-\\ChungThienNhi18110330\\app\\src\\main\\res\\drawable\\ic_account.xml"
+    }
+]

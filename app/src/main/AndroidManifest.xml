@@ -9,6 +9,7 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -17,7 +18,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".DoneBill"></activity>
+        <activity android:name=".Cart" />
+        <activity android:name=".Profile" />
         <activity android:name=".test" />
         <activity android:name=".DetailsActivity" />
         <activity android:name=".Dashboard" />

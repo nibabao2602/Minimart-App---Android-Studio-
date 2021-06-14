@@ -125,7 +125,7 @@
                             android:drawableStart="@drawable/ic_person"
                             android:drawableLeft="@drawable/ic_person"
                             android:drawablePadding="12dp"
-                            android:hint="@string/hint_username"
+                            android:hint="Your Name"
                             android:imeOptions="actionNext"
                             android:minWidth="320dp"
                             android:minHeight="45dp"

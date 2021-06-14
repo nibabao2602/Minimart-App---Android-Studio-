@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer_layout"
+    tools:openDrawer="start">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#272670">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="76dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintRight_toLeftOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/poppinsbold"
+            android:paddingLeft="10dp"
+            android:text="GIỎ HÀNG"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/logo"
+            app:layout_constraintLeft_toRightOf="@+id/logo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/recycler_layout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cart_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/payment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:backgroundTint="#F8F8FA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycler_layout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Thành tiền"
+                android:textAlignment="textEnd"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Phí ship"
+                android:textAlignment="textEnd"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:fontFamily="@font/poppinsbold"
+                android:text="Tổng đơn hàng"
+                android:textAlignment="textEnd"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/totalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="85.000 VND"
+                android:textAlignment="textEnd"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/delivery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="15.000 VND"
+                android:textAlignment="textEnd"
+                android:textColor="#272670"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/billPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:fontFamily="@font/poppinsbold"
+                android:text="100.000 VND"
+                android:textAlignment="textEnd"
+                android:textColor="#272670"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_layout"
+        app:layout_constraintVertical_bias="0.157">
+
+        <Button
+            android:id="@+id/continueShopping"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_cart_dashboard"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Tiếp tục \n mua hàng"
+            android:textColor="#272670"
+            android:textSize="24sp"
+            app:icon="@drawable/ic_cart_dashboard"
+            app:iconSize="15dp" />
+
+        <Button
+            android:id="@+id/btnBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_payment"
+            android:fontFamily="@font/poppinsbold"
+            android:padding="13dp"
+            android:text="THANH TOÁN"
+            android:textColor="#fff"
+            android:textSize="23sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
